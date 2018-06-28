@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "313886698324",
+    "firebase_url": "https://fir-chatapp-dfc6f.firebaseio.com",
+    "project_id": "fir-chatapp-dfc6f",
+    "storage_bucket": "fir-chatapp-dfc6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313886698324:android:6313e903d21b3365",
+        "android_client_info": {
+          "package_name": "com.dexterlab.chatappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313886698324-08il69n08lcimi2bp2j5aml1ractn6ej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dexterlab.chatappfirebase",
+            "certificate_hash": "e7e79698a32df1764f117969d83a19133798c13c"
+          }
+        },
+        {
+          "client_id": "313886698324-gsn44nibrsh95qkpqpja5uvjc8hu7k2s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "313886698324-gsn44nibrsh95qkpqpja5uvjc8hu7k2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4xAqh0st63nlWTVHws_CFMlXgMLwwjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313886698324-gsn44nibrsh95qkpqpja5uvjc8hu7k2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
