@@ -34,7 +34,7 @@ dependencies {
     compile 'com.firebaseui:firebase-ui:0.6.2'
     //noinspection GradleCompatible
     implementation 'com.android.support:design:27.1.0'
-    compile 'com.firebaseui:firebase-ui:0.6.2'
+    implementation 'com.firebaseui:firebase-ui:0.6.2'
 
 
 }

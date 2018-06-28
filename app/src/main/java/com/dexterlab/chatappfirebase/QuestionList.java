@@ -2,10 +2,12 @@ package com.dexterlab.chatappfirebase;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -100,6 +102,13 @@ public class QuestionList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        listView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                return false;
+            }
+        });
     }
 
 //    private void searchItem(String textToSearch) {
@@ -133,5 +142,12 @@ public class QuestionList extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void showUpdateDialog (String id,String postAnswer) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        final View dialogView = inflater.inflate(R.layout.update,null);
+        builder.setView(dialogView);
     }
 }
